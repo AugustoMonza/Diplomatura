@@ -147,16 +147,32 @@
     justify-content: space-evenly;
 }
 
+/* .main_3 *{
+    outline:1px solid #000;
+} */
+
 
 
 .main_3_div{
-    width: 200px;
-    height: 200px;
-    background-color: #25D366;
+    width: 300px;
     border-radius: 10px;
     border: none;
 }
 
+.pdf{
+    width: 400px
+}
+iframe{
+    width:100%;
+}
+.carousel-inner{
+    overflow: hidden;
+    background-size: contain;
+}
+
+.carousel-item{
+    background-size: 100% 100%;
+}
 #up_fig{
     width: 30px;
     height: 30px;
@@ -273,7 +289,7 @@
         flex-direction: column;
     }
 
-    .main_3_div{
+    .main_3_div, .pdf{
         width: 90%;
         margin: 1em;
     }
@@ -333,7 +349,7 @@
         flex-direction: column;
     }
 
-    .main_3_div{
+    .main_3_div, .pdf{
         width: 90%;
         margin: 1em;
     }
